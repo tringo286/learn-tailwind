@@ -556,16 +556,16 @@ video {
   display: none;
 }
 
+.ml-2{
+  margin-left: 0.5rem;
+}
+
 .mt-12{
   margin-top: 3rem;
 }
 
 .mt-8{
   margin-top: 2rem;
-}
-
-.ml-2{
-  margin-left: 0.5rem;
 }
 
 .flex{
@@ -578,14 +578,6 @@ video {
 
 .justify-center{
   justify-content: center;
-}
-
-.justify-around{
-  justify-content: space-around;
-}
-
-.justify-evenly{
-  justify-content: space-evenly;
 }
 
 .border-b{
@@ -639,6 +631,11 @@ video {
   line-height: 1;
 }
 
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -661,6 +658,11 @@ video {
   color: rgb(55 65 81 / var(--tw-text-opacity, 1));
 }
 
+.text-green-500{
+  --tw-text-opacity: 1;
+  color: rgb(34 197 94 / var(--tw-text-opacity, 1));
+}
+
 .text-primary{
   --tw-text-opacity: 1;
   color: rgb(255 99 99 / var(--tw-text-opacity, 1));
@@ -669,4 +671,35 @@ video {
 .text-secondary-200{
   --tw-text-opacity: 1;
   color: rgb(136 136 131 / var(--tw-text-opacity, 1));
+}
+
+.text-blue-500{
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity, 1));
+}
+
+@media (min-width: 640px){
+  .sm\:justify-center{
+    justify-content: center;
+  }
+
+  .sm\:text-red-500{
+    --tw-text-opacity: 1;
+    color: rgb(239 68 68 / var(--tw-text-opacity, 1));
+  }
+}
+
+@media (min-width: 768px){
+  .md\:justify-end{
+    justify-content: flex-end;
+  }
+
+  .md\:justify-center{
+    justify-content: center;
+  }
+
+  .md\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
 }
