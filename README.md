@@ -6,3 +6,6 @@ This is a basic webpage created to practice the fundamentals of **Tailwind CSS**
 ## Features
 - **Responsive Layout** using Tailwind's responsive utilities.
 - **Modern Design** with Tailwind's spacing, typography, and color utilities.
+
+## Demo 
+![Demo](public/img/Screenshot.png)
