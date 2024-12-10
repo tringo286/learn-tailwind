@@ -8,4 +8,4 @@ This is a basic webpage created to practice the fundamentals of **Tailwind CSS**
 - **Modern Design** with Tailwind's spacing, typography, and color utilities.
 
 ## Demo 
-![Demo](public/img/Screenshot.png)
+[Link to Website](https://tringo286.github.io/learn-tailwind/)
